@@ -1,0 +1,481 @@
+header > .head-nav{
+background: url("../image/head-bg.jpg");
+}
+header > .jumbotron{
+    background: url("../image/jum-bg.jpg");
+}
+ header > .jumbotron a{
+    margin-left: 65px;
+} 
+.body .container .center{
+    display: flex;
+}
+.container  .left img{
+    margin-left: -15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container  .left .text{
+   margin-top: 23px; 
+   
+} 
+.container  .left .text h5{
+    font-weight: bold; 
+  } 
+  .container  .left .text p{
+    opacity: 0.6;
+    font-size: 12px; 
+  } 
+  .container  .left .text i{
+  padding-left: 10px;
+  cursor: pointer;
+  } 
+  .container  .left .text .content{
+ 
+    font-size: 14.5px;
+  }
+  .container  .left .title {
+      margin-top: 30px;
+height: 40px;
+padding:5px ;
+background: url("../image/jum-bg.jpg");
+  }
+  /* .container .right {
+margin-left: 30px;
+width: 100%;
+} */
+.container  .right .title{
+    margin-top: 30px;
+    height: 40px;
+    padding:5px ;
+    margin-left: 0px;
+    background: url("../image/jum-bg.jpg");
+}
+.container .right .box{
+    margin-top: 30px;
+}
+.container .right .box .text{
+    height: 45px;background: url("../image/bg.jpg");
+    font-family: Arial;
+        padding:10px;
+        opacity: 0.8;
+}
+.container .right .box .text a{
+    color: white;
+    text-decoration: none;
+}
+.container .right .box .arrow a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.container .right .box .arrow a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous,.next {
+    cursor: pointer;
+    position: absolute;
+    top: 7.5%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .next {
+    right: 20px;
+    border-radius: 3px 0 0 3px;
+  }
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+   background: grey;
+    
+    margin: 0 5px;
+  }
+  
+  .pagination a.active {
+    background: url("../image/pag-bg.jpg");
+    color: white;
+    
+  }
+  .adv-foot{
+    text-align: center;
+    margin-top: 50px;
+}
+.tag-box .tag{
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.tag-box .tag a:nth-child(2){
+width: 68px;
+height: 38px;
+}
+.tag-box .tag a:nth-child(1){
+    width: 85px;
+    height: 38px;
+    }
+    .tag-box .tag a:nth-child(3){
+        width: 85px;
+        height: 38px;
+        }
+        .tag-box .tag a:nth-child(4){
+            width: 85px;
+            height: 38px;
+            }
+.tag-box .tag a{
+    display: inline-block;
+    width: 100px;
+    height: 39px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    padding-left: 15px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: -7px;
+    text-decoration: none;
+    color: dimgray;
+}
+.tag-box .tag a:hover{
+    color: white;
+    background: dodgerblue;
+}
+.tweets .row{
+    width: 100%;
+    margin-left: 0px;
+    height: 40px;
+    padding:5px ;
+    background: url("../image/jum-bg.jpg");
+    margin-top: 30px;
+}
+.tweets .name{
+    display: flex;
+}
+.tweets .name .left img{
+margin-left: 15px;
+}
+
+.tweets .name .right {
+    display: flex;
+}
+.tweets .name .right p{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    color: black;
+ 
+    }
+    .tweets  .name .right span{
+    float: right;
+    color: lightslategrey;
+    font-size: 12.5px;
+    font-weight: normal;
+    margin-left: 130px;
+    margin-top:30px;
+}    
+.tweets .content{
+    margin-left: 15px;
+    margin-top: -25px;
+}
+.tweets .content p{
+   font-size: 12.5px ; 
+   font-family: Arial, Helvetica, sans-serif;
+   color: lightslategrey;
+}
+.tweets .content a{
+    text-decoration: none;
+}
+    .tweets .name .right p:nth-child(2){
+        color: lightslategrey;
+        font-size: 12.5px;
+        margin-top: -20px;
+        font-weight: normal;
+        }    
+     .tweets p img{
+        margin-left: 15px;  
+        padding-right: 10px;
+     }   
+     .tweets p{
+         margin-top: -10px;
+         color: lightslategrey;
+        font-size: 12.5px;
+     }
+     .tweets .foot {
+         margin-left: 15px;
+        display: flex;
+     }
+     .tweets .foot .txt a{
+        text-decoration: none;
+     }
+     .tweets .foot .symbol{
+         padding-left: 130px;
+         margin-top: -10px;
+     }
+     .tweets .foot .symbol ul{
+        display: flex;
+       
+     } 
+     .tweets .foot .symbol ul li{
+        list-style: none;
+        padding: 10px;
+        cursor: pointer;
+        color: gray;
+     }
+     .tweets .foot .symbol ul li:hover{
+        color: red;
+     }
+     .tweets .avatar2{
+         margin-top: -10px;
+     }
+     .tweets .avatar2 .img img{
+         margin-top: 15px;
+         width: 100%;
+     }
+     .tweets  .avatar2  .foot{
+         margin-top: 10px;
+     }
+.video .row{
+    width: 100%;
+    margin-left: 0px;
+    height: 40px;
+    padding:5px ;
+    background: url("../image/jum-bg.jpg");
+    margin-top: 30px;
+}
+.video .box .text{
+    height: 45px;background: url("../image/bg.jpg");
+    font-family: Arial;
+        padding:10px;
+        margin-top: -50px;
+        opacity: 0.8;
+}
+.video .box .text a{
+font-size: 13px;
+}
+.adv-right{
+    margin-top: 30px;
+}
+.most-view{
+    margin-top: 30px;
+}
+.most-view .table td{
+    display: flex;
+  
+}
+.most-view .table .t1{
+    margin-left: 20px;
+}
+
+.most-view .table td p{
+font-weight: bold;
+font-size: 12px;
+}
+.most-view .table td p:nth-child(2){
+    color: lightslategrey;
+    font-size: 12px;
+    margin-top: -15px;
+    }
+    .tag-box .row{
+        width: 100%;
+        height: 40px;
+        padding:5px ;
+        margin-left: 0px;
+        margin-top: 30px;
+        background: url("../image/jum-bg.jpg");
+    }
+footer{
+    margin-top: 50px;
+    background-image: url("../image/foot.jpg");
+    position: relative;
+}
+footer h5{
+    color: white;
+    letter-spacing: 4px;
+    font-size: 16px;
+}
+footer .foot_title::after{
+content: "";
+
+left: 0;
+bottom: 0;
+width: 70px;
+height: 3px;
+background-color: #4ce5de;
+display: block;
+}
+footer .content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer .content a{
+    color: white;
+    text-decoration: none;
+}
+footer .content a:last-child{
+    color: aquamarine;
+   
+}
+footer .content p{
+    color: lightgray;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+}
+footer .content a:hover{
+    color: aquamarine;
+}
+footer{
+    padding-bottom: 100px;
+}
+.foot-content{
+    width: 100%;
+    background-image: url("../image/head-bg.jpg");
+    padding-bottom: 40px;
+}
+
+.foot-content .left p{
+color: gainsboro;
+margin-left: 15px;
+padding-top: 43px;
+}
+.foot-content .right{
+    padding-top: 43px;
+  
+    } 
+    .most-view .nav {
+      
+        background:url("../image/pag-bg.jpg");
+      }
+      .nav li {
+        float: left;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .nav li:hover {
+        background-image: url("../image/active.jpg");
+      }
+      .nav li a{
+        color: whitesmoke;
+      }
+      .nav li .active {
+        background:url("../image/active.jpg");
+    
+      }   
+     @media all and (max-width:1320px){
+ .adv-foot img{
+             width: 90%;
+         }
+header > .jumbotron a{
+    width: 100%;  
+}
+header > .jumbotron{     
+    width: 100%;
+}
+header > .jumbotron img{     
+    width: 100%;
+}
+.tweets  .name .right span{
+    float: right;
+    font-size: 12.5px;
+    font-weight: normal;
+   margin-left: 100px;
+    margin-top:30px;
+}  
+     } 
+
+@media all and (max-width:1000px){
+    .body .center .left .row .text .content {
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       header > .jumbotron{     
+        width: 100%;
+    }
+    header > .jumbotron img{     
+        width: 100%;
+    }
+    header > .jumbotron a{     
+        margin-left: 0px;
+    }
+    .tweets  .name .right span{
+        float: right;
+        font-size: 12.5px;
+        font-weight: normal;
+       margin-left: 25px;
+        margin-top:30px;
+    }   
+}
+ 
+     @media all and (max-width:832px){
+        .adv-foot img{
+            width: 70%;
+        }
+        header > .jumbotron{     
+            width: 100%;
+        }
+        header > .jumbotron img{     
+            width: 100%;
+        }
+        header > .jumbotron a{     
+            margin-left: 0px;
+        }
+        .adv-foot{
+            margin-top: 50px;
+        }
+        .body .container .center{
+            display: inline-block;
+        }
+       
+        .pop-new .title{width: 100%;}
+        .tweets  .name .right span{
+            float: right;
+            font-size: 12.5px;
+            font-weight: normal;
+           margin-left: 210px;
+            margin-top:30px;
+        }  
+    }
+    @media all and (max-width:480px){
+        .adv-foot img{
+            width: 70%;
+        }
+        header > .jumbotron{     
+            width: 100%;
+        }
+        header > .jumbotron img{     
+            width: 100%;
+        }
+        
+        .adv-foot{
+            margin-top: 50px;
+        }
+        .body .container .center{
+            display: inline-block;
+        }
+        
+        .pop-new .title{width: 100%;}
+        footer{
+            margin-left: 25px;
+        }
+        .tweets .foot .symbol{
+            float: right;
+        }
+        
+    }
